@@ -1,0 +1,57 @@
+import dotenv from "dotenv";
+dotenv.config();
+import readline from "readline";
+import { GoogleGenerativeAI} from "@google/generative-ai";
+
+const genAI = new GoogleGenerativeAI(process.env.API_KEY); //im[port readline for reading terminal
+
+const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+});
+
+let isAwaitingResponse = false; //flag to indicate we're waiting
+
+async function run() {
+    
+    const model = genAI.getGenerativeModel({ model: "gemini-pro"});
+
+    const chat  = model.startChat({
+        history: [], //empty history
+        generationConfig: {
+            maxOutputTokens: 500,
+        },
+    });
+
+    //Func to get user input + send to the model using streaming
+    function askAndRespond() {
+        if (!isAwaitingResponse) {
+            rl.question("You: ", async (msg) => {
+                if(msg.toLowerCase() === "exit") {
+                    rl.close();
+            } else {
+            isAwaitingResponse = true;
+            try{
+                    const result = await chat.sendMessageStream(msg);
+                    let text = "";
+                    for await (const chunk of result.stream) {
+                        const chunkText = await chunk.test();
+                        console.Console.apply.log("AI: ", chunkText);
+                        text += chunkText;
+                    }
+                    isAwaitingResponse = false;
+                    askAndRespond();
+            } catch(error) {
+                console.error("Error:", error);
+                isAwaitingResponse = false;
+            }
+        }
+        });
+        } else {
+            console.log("");
+        }
+    }
+    askAndRespond();
+}
+
+run();
