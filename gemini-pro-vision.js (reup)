@@ -12,8 +12,9 @@ function fileToGenerativePart(path, mimeType) {
             mimeType,
         },
     };
+}
 
-    vnc function run() {
+    async function run() {
         const model = genAI.getGenerativeModel({ model: "gemini-pro-vision"});
         
         const prompt ="";
@@ -24,7 +25,7 @@ function fileToGenerativePart(path, mimeType) {
         const response = await result.response;
         const text = response.text();
         console.log(text);
-    }
+    
 } 
 
 run();
