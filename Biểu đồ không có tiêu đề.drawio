@@ -20,7 +20,7 @@
           <mxGeometry x="750" y="380" width="160" height="132.5" as="geometry" />
         </mxCell>
         <mxCell id="PBuc0an2zfsc_Rn7re1Y-11" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;4. Hybrid Integration&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Combine clustering results and C.F to determine&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;personalized recommendation strategies for each user group&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="365" width="170" height="135" as="geometry" />
+          <mxGeometry x="950" y="375" width="170" height="135" as="geometry" />
         </mxCell>
         <mxCell id="PBuc0an2zfsc_Rn7re1Y-12" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;5. Online learning&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Continuously update the user clusters and similarity matrices as new user data is collected&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1142.5" y="365" width="165" height="135" as="geometry" />
