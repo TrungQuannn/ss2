@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.15">
   <diagram name="Trang-1" id="6aLWq1HK-mUqnJQd8z5S">
-    <mxGraphModel>
+    <mxGraphModel dx="1678" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-2" value="&lt;span id=&quot;docs-internal-guid-ec489c87-7fff-a89d-b190-7d89542970eb&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 11px;&quot;&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px;&quot;&gt;&lt;li aria-level=&quot;1&quot; style=&quot;list-style-type: decimal; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot; dir=&quot;ltr&quot;&gt;&lt;p role=&quot;presentation&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;&quot; dir=&quot;ltr&quot;&gt;Initialization&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;b style=&quot;&quot;&gt;Collect and preprocess data, and initialize the clustering and C.F model&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="156" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-5" value="&lt;span id=&quot;docs-internal-guid-ec489c87-7fff-a89d-b190-7d89542970eb&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;ol style=&quot;margin-top:0;margin-bottom:0;padding-inline-start:48px;&quot;&gt;&lt;li aria-level=&quot;1&quot; style=&quot;list-style-type: decimal; font-size: 15pt; font-family: Lora, serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot; dir=&quot;ltr&quot;&gt;&lt;p role=&quot;presentation&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span id=&quot;docs-internal-guid-23b6f8d5-7fff-752d-ab61-a783120b3046&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;ol style=&quot;margin-top:0;margin-bottom:0;padding-inline-start:48px;&quot;&gt;&lt;li aria-level=&quot;1&quot; style=&quot;list-style-type:decimal;font-size:15pt;font-family:Lora,serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;&quot; dir=&quot;ltr&quot;&gt;&lt;p role=&quot;presentation&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size:15pt;font-family:Lora,serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Online learning&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="219" y="720" width="390" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-6" value="&lt;span id=&quot;docs-internal-guid-ec489c87-7fff-a89d-b190-7d89542970eb&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;ol style=&quot;margin-top:0;margin-bottom:0;padding-inline-start:48px;&quot;&gt;&lt;li aria-level=&quot;1&quot; style=&quot;list-style-type: decimal; font-size: 15pt; font-family: Lora, serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot; dir=&quot;ltr&quot;&gt;&lt;p role=&quot;presentation&quot; style=&quot;line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span id=&quot;docs-internal-guid-731f6139-7fff-8b46-1de5-6358d84a59c4&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;ol style=&quot;margin-top:0;margin-bottom:0;padding-inline-start:48px;&quot;&gt;&lt;li aria-level=&quot;1&quot; style=&quot;list-style-type:decimal;font-size:15pt;font-family:Lora,serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;&quot; dir=&quot;ltr&quot;&gt;&lt;p role=&quot;presentation&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size:15pt;font-family:Lora,serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Giving Recommendations&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="710" width="390" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-9" value="&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2&lt;font face=&quot;Comic Sans MS&quot;&gt;. Clustering&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span id=&quot;docs-internal-guid-9cac1d9a-7fff-763e-b922-73c1cda98487&quot;&gt;&lt;span style=&quot;font-size: 11pt; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;segment users with similar preferences and behaviors&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="381.25" width="160" height="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-10" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;3. Training&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Apply user-based and item-based filtering to train the way it recommends to users&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="380" width="160" height="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-11" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;4. Hybrid Integration&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Combine clustering results and C.F to determine&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;personalized recommendation strategies for each user group&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="365" width="170" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-12" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;5. Online learning&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Continuously update the user clusters and similarity matrices as new user data is collected&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1142.5" y="365" width="165" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-13" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;6.&amp;nbsp; Giving recommendations&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Generate personalized perfume recommendations based on the user&#39;s cluster and behavioral similarities to others.&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="375" width="190" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.017;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.004;entryY=0.573;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PBuc0an2zfsc_Rn7re1Y-2" target="PBuc0an2zfsc_Rn7re1Y-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="550" as="sourcePoint" />
+            <mxPoint x="640" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.019;exitY=0.549;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.019;entryY=0.561;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PBuc0an2zfsc_Rn7re1Y-9" target="PBuc0an2zfsc_Rn7re1Y-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="560" as="sourcePoint" />
+            <mxPoint x="810" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.011;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.008;entryY=0.569;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PBuc0an2zfsc_Rn7re1Y-10" target="PBuc0an2zfsc_Rn7re1Y-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="560" as="sourcePoint" />
+            <mxPoint x="900" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.022;exitY=0.409;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.012;entryY=0.604;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PBuc0an2zfsc_Rn7re1Y-11" target="PBuc0an2zfsc_Rn7re1Y-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="580" as="sourcePoint" />
+            <mxPoint x="1100" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBuc0an2zfsc_Rn7re1Y-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1.002;exitY=0.571;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.023;entryY=0.416;entryDx=0;entryDy=0;entryPerimeter=0;width=3.5294117647058822;endSize=7.188235294117647;" edge="1" parent="1" source="PBuc0an2zfsc_Rn7re1Y-12" target="PBuc0an2zfsc_Rn7re1Y-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="620" as="sourcePoint" />
+            <mxPoint x="850" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
